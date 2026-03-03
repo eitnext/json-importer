@@ -31,7 +31,7 @@ A lightweight Node.js CLI tool to **import** and **delete** MongoDB collections 
 │   └── reviewModel.js
 │
 ├── config.env
-└── cli.js
+└── import.js
 ```
 
 ---
@@ -76,7 +76,7 @@ DB_URL=mongodb://127.0.0.1:27017/your-database
 Run the CLI:
 
 ```bash
-node cli.js
+node import.js
 ```
 
 You’ll see:
